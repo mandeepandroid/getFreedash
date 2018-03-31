@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+    <item
+        android:id="@+id/share"
+        android:title="Share">
+
+    </item>
+        <item
+            android:id="@+id/logout"
+            android:title="Logout">
+
+        </item>
+</group>
+    <!--<item
+
+        android:id="@+id/one"
+        android:title="LATEST NEWS">
+
+    </item>
+
+    <item
+        android:id="@+id/two"
+        android:title="EXCLUSIVE"></item>
+    <item
+        android:id="@+id/three"
+        android:title="SPECIAL EDITION SHOWS"></item>
+    <item
+        android:id="@+id/four"
+        android:title="SHOWS"></item>
+    <item
+        android:id="@+id/aboutus"
+        android:title="ABOUT US"></item>-->
+
+</menu>

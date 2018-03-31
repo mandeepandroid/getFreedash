@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GetFreeDash</string>
+    <string name="facebook_app_id">183949698880536</string>
+
+    <string name="fa_fb">&#xf082;</string>
+
+    <string name="font_awesome_contact_icon">&#xf2b9;</string>
+
+    <string name="fa_battery_4">&#xf08c;</string>
+
+    <string name="fa_bank">&#xf232;</string>
+
+    <string name="fa_birthday_cake">&#xf0d4;</string>
+
+    <string name="fa_cab">&#xf081;</string>
+
+    <string name="fa_camera">&#xf030;</string>
+</resources>

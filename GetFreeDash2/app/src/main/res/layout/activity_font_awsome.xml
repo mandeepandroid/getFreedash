@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:background="#FFFDE7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:orientation="vertical">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+                <TextView
+
+                    android:id="@+id/contact_us_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+
+                    android:gravity="center"
+                    android:text="@string/fa_fb"
+                    android:textColor="#009688"
+                    android:textSize="80dp" />
+
+                <TextView
+
+                    android:id="@+id/fa_battery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/fa_battery_4"
+                    android:textColor="#F44336"
+                    android:textSize="80dp" />
+
+                <TextView
+
+                    android:id="@+id/fa_bank_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/fa_bank"
+                    android:textColor="#9C27B0"
+                    android:textSize="80dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="@dimen/_50sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/fa_birthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              android:gravity="center"
+                android:layout_margin="10dp"
+
+                android:text="@string/fa_birthday_cake"
+                android:textColor="#2196F3"
+                android:textSize="80dp" />
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/fa_cab_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+
+                android:text="@string/fa_cab"
+                android:textColor="#FFC107"
+                android:textSize="80dp" />
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/fa_camera_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+
+                android:text="@string/fa_camera"
+                android:textColor="#FF5722"
+                android:textSize="80dp" /></LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bacground"
+    android:orientation="vertical"
+    tools:context="com.getfreedash.Authentication.RegisterMobileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar"></include>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_40sdp"
+        android:layout_marginRight="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingBottom="@dimen/_20sdp"
+            android:paddingTop="@dimen/_20sdp"
+            android:text="REGISTER MOBILE"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_recode"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_32sdp"
+                android:background="@drawable/border"
+                android:drawableLeft="@drawable/recode_dash"
+                android:drawablePadding="@dimen/_10sdp"
+                android:hint="Enter refcode"
+                android:inputType="textNoSuggestions"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="#ffffff"
+                android:textSize="@dimen/_12sdp" />
+            <!--android:text="XevzguNEK7fdvMuHty6h1tYZ9qnpF9aCwF"-->
+            <EditText
+                android:id="@+id/et_wlletid"
+
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_32sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/border"
+                android:drawableLeft="@drawable/wallet_id_dash"
+                android:drawablePadding="@dimen/_10sdp"
+                android:hint="Enter walletid"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="#ffffff"
+                android:textSize="@dimen/_12sdp" />
+
+            <EditText
+                android:id="@+id/et_country"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_32sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/border"
+                android:drawableLeft="@drawable/country_code_dash"
+                android:drawablePadding="@dimen/_10sdp"
+                android:hint="Enter country code"
+                android:inputType="number"
+
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="#ffffff"
+                android:textSize="@dimen/_12sdp" />
+
+            <EditText
+                android:id="@+id/et_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_32sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/border"
+                android:drawableLeft="@drawable/mobile_dash"
+                android:drawablePadding="@dimen/_10sdp"
+                android:hint="Enter mobile"
+                android:inputType="number"
+
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="#ffffff"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/edit_text_filled_bg"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/_5sdp"
+            android:text="SUBMIT"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

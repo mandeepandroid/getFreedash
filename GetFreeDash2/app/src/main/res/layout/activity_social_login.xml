@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bacground"
+    >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.getfreedash.Authentication.SocialLoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar">
+
+        </include>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_40sdp"
+            android:layout_marginRight="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingBottom="@dimen/_20sdp"
+                android:paddingTop="@dimen/_20sdp"
+                android:text="SOCIAL LOGIN"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/_20sdp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:textSize="@dimen/_12sdp"
+                    android:id="@+id/et_fnmae"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_32sdp"
+                    android:background="@drawable/border"
+                    android:drawableLeft="@drawable/fname_dash"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:hint="Enter first name"
+                    android:inputType="textNoSuggestions"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="#ffffff" />
+
+                <EditText
+                    android:textSize="@dimen/_12sdp"
+                    android:id="@+id/et_lname"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_32sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/border"
+                    android:drawableLeft="@drawable/lname_dash"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:hint="Enter last name"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="#ffffff" />
+
+                <EditText
+                    android:textSize="@dimen/_12sdp"
+                    android:id="@+id/et_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_32sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/border"
+                    android:drawableLeft="@drawable/email_dash"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:hint="Enter email-id"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="#ffffff" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/edit_text_filled_bg"
+                android:gravity="center"
+              android:padding="@dimen/_5sdp"
+                android:text="LOGIN"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout></ScrollView>
